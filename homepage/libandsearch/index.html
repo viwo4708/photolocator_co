@@ -8,6 +8,7 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="\allPages.css">
+        <link rel="stylesheet" href="\index.css">
 
     </head>
 
@@ -29,37 +30,65 @@
           </u>
           </nav>
           <br><br><br>
+        
+          <div id="header"><h1 id="headertext">Browse</h1></div>
 
           <!--containers for images -->
         <div class="container">
           <div class="card-columns">
 
-            <div class="popup" onclick="myFunction()">
-            <div class="card">
-              <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_0291.jpg" alt="Card image cap">
-            </div>
-            <span class="popuptext" id="myPopup">Tags: Nature, Studio</span>
-            </div>  
-
-            <div class="card">
+              <div class="popup" onclick="myFunction()">
+              <div class="card">
+                <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_0291.jpg" alt="Card image cap">
+              </div>
+              <span class="popuptext" id="myPopup">Tags: Nature, Outdoor</span>
+              <iframe id="popupmap" class="popiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12249.785859532065!2d-105.13535992135283!3d39.86423621931382!2m3!1f0!2f0!3f0!3m2!1i10
+              24!2i768!4f13.1!3m3!1m2!1s0x876b8eb4c8a2ba7d%3A0x7779fb9afead0b4c!2sStandley%20Lake!5e0!3m2!1sen!2sus!4v1646532519690!5m2!1sen!2sus" 
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            
+              <div class="popup" onclick="func2()">
+              <div class="card">
                 <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_3880.jpg" alt="Card image cap">
               </div>
+              <span class="popuptext" id="myPopup2">Tags: Nature, Indoor</span>
+              <iframe id="popupmap2" class="popiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.5701451583336!2d-105.00290454907527!3d39.546750079375016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c824e72487779%3A0x2c54efd25c8d352!2sMichaels!5e0!3m2!1sen!2sus!4v1646533287567!5m2!1sen!2sus" 
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
 
+              <div class="popup" onclick="func3()">
               <div class="card">
                 <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_5593.jpg" alt="Card image cap">
               </div>
-              
-              <div class="card">
-                <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_6486.jpg" alt="Card image cap">
+              <span class="popuptext" id="myPopup3">Tags: Urban, Outdoor </span>
+              <iframe id="popupmap3" class="popiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24533.94286226038!2d-104.99635950977616!3d39.76788147805889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c79031dda849f%3A0x96a84a109b16b2ad!2sRiver%20North%20Art%20District%2C%20Denver%2C%20CO!5e0!3m2!1sen!2sus!4v1646534008870!5m2!1sen!2sus" 
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
 
-            <div class="card">
-              <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_9397.jpg" alt="Card image cap">
-            </div>
+              <div class="popup" onclick="func4()">
+              <div class="card">
+                <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_6442.jpg" alt="Card image cap">
+              </div>
+              <span class="popuptext" id="myPopup4">Tags: Urban, Outdoor </span>
+              <iframe id="popupmap4" class="popiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.5761148885645!2d-105.28214904906086!3d40.017914979312394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bec290e54f891%3A0x4327eb21935cb73!2sPearl%20St%2C%20Boulder%2C%20CO!5e0!3m2!1sen!2sus!4v1646534173157!5m2!1sen!2sus" 
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              
+              <div class="popup" onclick="func5()">
+              <div class="card">
+                <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_9397.jpg" alt="Card image cap">
+              </div>
+              <span class="popuptext" id="myPopup5">Tags: Urban, Outdoor </span>
+              <iframe id="popupmap5" class="popiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.3311732724083!2d-105.00100414889941!3d39.73221117934964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7f89821796e3%3A0x56e567218097e8d0!2sArt%20District%20on%20Santa%20Fe!5e0!3m2!1sen!2sus!4v1646534492990!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
 
-            <div class="card">
-              <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_5332.jpg" alt="Card image cap">
-            </div>
+              <div class="popup" onclick="func6()">
+              <div class="card">
+                <img class="card-img-top" src="https://raw.githubusercontent.com/heatherMonteson/Hackathon2022/main/image%20assets/VWP_5332.jpg" alt="Card image cap">
+              </div>
+              <span class="popuptext" id="myPopup6">Tags: Urban, Outdoor </span>
+              <iframe id="popupmap6" class="popiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.5761148885645!2d-105.28214904906086!3d40.017914979312394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bec290e54f891%3A0x4327eb21935cb73!2sPearl%20St%2C%20Boulder%2C%20CO!5e0!3m2!1sen!2sus!4v1646534173157!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
 
         </div>
 
