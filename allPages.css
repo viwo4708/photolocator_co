@@ -1,23 +1,28 @@
 /* Nav bar */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar-custom {
-    background-color: rgb(34, 41, 34);
+    background-color: rgb(247, 248, 247);
 }
 nav .navbar-nav li a{
-    color: white !important;
-    
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
+
+
 /* text */
-h1{
-    color:white; 
+h1, h2, h3, h4{
+    color:rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* backround */
 body 
 {
-    background-color: rgb(151, 151, 151);
+    background-image: linear-gradient(to right, rgb(49, 46, 46) , rgb(12, 9, 9));
 }
+
