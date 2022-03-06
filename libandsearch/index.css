@@ -1,3 +1,15 @@
+#header {
+    margin-top: 2vw;
+}
+
+#headertext {
+    font-size: 400%;
+}
+
+.container {
+    margin-top: 2vw;
+}
+
 /* Popup container */
 .popup {
     position: relative;
@@ -8,7 +20,7 @@
   /* The actual popup (appears on top) */
   .popup .popuptext {
     visibility: hidden;
-    width: 600px;
+    width: 400px;
     height: 4vw;
     background-color: rgb(255, 255, 255);
     opacity: 1;
@@ -16,9 +28,9 @@
     text-align: center;
     padding: 8px 0;
     position: absolute;
-    z-index: 0;
-    bottom: 82%;
-    left: 30%;
+    z-index: 1;
+    bottom: 75%;
+    left: -6%;
     /* margin-left: -80px; */
   }
 
@@ -27,8 +39,8 @@
     z-index: 1;
     padding: 8px 0;
     position: absolute;
-    bottom: 8%;
-    left: 30%;
+    bottom: 23%;
+    left: -6%;
   }
 
   /* Popup arrow */
